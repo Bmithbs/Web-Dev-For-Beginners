@@ -141,7 +141,7 @@ Strings are sets of characters that reside between single or double quotes.
 
 Remember to use quotes when writing a string, or else JavaScript will assume it's a variable name.
 
-### Formatting Strings
+### Formatting (格式化) Strings
 
 Strings are textual, and will require formatting from time to time.
 

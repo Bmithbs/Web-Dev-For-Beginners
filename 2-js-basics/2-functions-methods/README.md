@@ -132,7 +132,7 @@ const greetingMessage = createGreetingMessage('Christopher');
 
 ## Functions as parameters for functions
 
-As you progress in your programming career, you will come across functions which accept functions as parameters. This neat trick is commonly used when we don't know when something is going to occur or complete, but we know we need to perform an operation in response.
+As you progress in your programming career, you will come across functions which accept functions as parameters. This neat（灵巧的） trick is commonly used when we don't know when something is going to occur or complete, but we know we need to perform an operation in response.
 
 As an example, consider [setTimeout](https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout), which begins a timer and will execute code when it completes. We need to tell it what code we want to execute. Sounds like a perfect job for a function!
 
@@ -146,7 +146,7 @@ function displayDone() {
 setTimeout(displayDone, 3000);
 ```
 
-### Anonymous functions
+### Anonymous（匿名的） functions
 
 Let's take another look at what we've built. We're creating a function with a name which will be used one time. As our application gets more complex, we can see ourselves creating a lot of functions which will only be called once. This isn't ideal. As it turns out, we don't always need to provide a name!
 

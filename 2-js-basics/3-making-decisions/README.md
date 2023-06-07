@@ -122,7 +122,7 @@ if (!condition) {
 }
 ```
 
-### Ternary expressions
+### Ternary (三元的) expressions
 
 `if...else` isn't the only way to express decision logic. You can also use something called a ternary operator. The syntax for it looks like this:
 
